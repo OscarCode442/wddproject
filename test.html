@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bountiful Foods</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body style="background-image: url('strawberry.jpg');">
+  <header>
+    <div class="container text-center py-3">
+      <img src="images/Picturelogo.png" alt="" class="img-fluid">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="fresh.html">Fresh</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="attributions.html">Resource Reference/Attributions</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="summary">
+      <!-- Add summary information about the southern California coast -->
+    </section>
+    
+    <section class="call-to-action text-center py-5">
+      <div class="container">
+        <h1>Welcome to Bountiful Foods</h1>
+        <p class="lead">Bountiful Foods is a small business specializing in organic, locally grown foods. They are physically located in Carlsbad, California, however, they have many food trucks that cover the coastal area from Los Angeles to San Diego. The company sells fruits and produce directly from the farmers in the area, but also uses some national and international suppliers. The owner-operated company caters to walk-in traffic at their storefront in Carlsbad and, of course, their food trucks. They deliver and manage those orders on the phone and via the website. The mission is to provide fresh and healthy food options, including organic, made-to-order fruit drinks and fruit bags, to the local population and tourists visiting the coastal areas. The theme should support healthy eating, organic bounty, and convenience.</p>
+        <a href="fresh.html" class="btn btn-primary">Make Your Own Fruit Drink Mix</a>
+      </div>
+    </section>
+    
+    <section class="images py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <img src="images/download.jpg" alt="Image 1" class="img-fluid">
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <img src="images/download (1).jpg" alt="Image 2" class="img-fluid">
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <img src="images/download (2).jpg" alt="Image 3" class="img-fluid">
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <img src="images/download (3).jpg" alt="Image 4" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="weather-card">
+      <!-- Display current weather conditions and forecast for Carlsbad -->
+      <h2>Current Weather</h2>
+      <p>Temperature: <span id="current-temperature"></span>°C</p>
+      <p>Condition: <span id="condition-description"></span></p>
+      <p>Humidity: <span id="humidity"></span>%</p>
+    </section>
+    <section class="weather-forecast">
+      <h2>Three-Day Forecast</h2>
+      <p>Day 1: <span id="day1-temperature"></span>°C</p>
+      <p>Day 2: <span id="day2-temperature"></span>°C</p>
+      <p>Day 3: <span id="day3-temperature"></span>°C</p>
+    </section>
+  </main>
+  
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <p>Connect with us on social media:</p>
+      <ul class="social-media-links">
+        <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="Facebook"></a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/twitter.png" alt="Twitter"></a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/instagram.jpg" alt="Instagram"></a></li>
+      </ul>
+      <p id="last-modified"></p>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/lastmodified.js"></script>
+</body>
+</html>

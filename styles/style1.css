@@ -1,0 +1,407 @@
+body {
+    background-image: url('strawberry.jpg');
+    background-color: wheat;
+    margin: 10px;
+  }
+  
+  header {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .logo img {
+    width: 20%;
+    height: 20%;
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .call-to-action {
+    margin-bottom: 40px;
+    margin: 10px;
+  }
+  
+  .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .images img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+  }
+  
+  .social-media-links li {
+    margin: 0 10px;
+    
+  }
+  .social-media-links img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    
+  }
+  
+  #last-modified {
+    margin-top: 20px;
+    margin: 10px;
+  }
+  
+  .weather-card,
+  .weather-forecast {
+    margin: 10px;
+  }
+  
+  
+
+  /* Form styling */
+#drink-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#drink-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#drink-form input,
+#drink-form select,
+#drink-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#drink-form textarea {
+  height: 100px;
+}
+
+#drink-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+#drink-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+ form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 150px;
+    }
+
+    button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    
+    .logo {
+      text-align: center;
+    }
+
+    .aboutimage {
+      width: 600px;
+      height: 300px;
+    }
+ .homeimages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two items per row */
+  gap: 10px; /* Add some gap between the images */
+}
+  
+    /* Define the dimensions for images with class "homeimage" */
+    .homeimage {
+      width: 300px;
+      height: 200px;
+      gap: 10px;
+    }
+
+
+    nav {
+      background-color: #333; /* Set the background color */
+      padding: 10px 0; /* Add some padding to the top and bottom */
+    }
+    
+    nav ul {
+      list-style: none; /* Remove default list styles */
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline-block; /* Display menu items horizontally */
+      margin-right: 20px; /* Add some space between menu items */
+    }
+    
+    nav a {
+      text-decoration: none; /* Remove underline from links */
+      color: #fff; /* Set link color */
+      font-size: 18px; /* Set font size */
+      padding: 5px 10px; /* Add some padding to the links */
+    }
+    
+    nav a:hover {
+      background-color: #555; /* Change background color on hover */
+      border-radius: 5px; /* Add rounded corners on hover */
+    }
+    
+
+    #map {
+      display: inline-block;
+      background-color: #337ab7;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    #map:hover {
+      background-color: #23527c;
+    }
+
+
+/* CSS for the .cta-button */
+.cta-button {
+  margin: 10px;
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-align: center; /* Center the button text horizontally */
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+    /* CSS for weather-card and weather-forecast sections */
+.weather-card,
+.weather-forecast {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.weather-card h2,
+.weather-forecast h2 {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.weather-card p,
+.weather-forecast p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Flexbox container for the sections */
+.weather-container {
+  display: flex;
+}
+
+/* Equal width for both sections */
+.weather-card,
+.weather-forecast {
+  flex-basis: 50%;
+  box-sizing: border-box;
+}
+
+
+/* CSS code to beautify the article tags */
+article {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+article p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+article a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+article a:hover {
+  color: #0056b3;
+}
+
+/* Optionally, you can add more styles based on your design preferences */
+
+@media screen and (max-width: 767px) {
+  .images {
+    grid-template-columns: repeat(1, 1fr); /* Display one item per row */
+  }
+
+  .homeimages {
+    grid-template-columns: repeat(1, 1fr); /* Display one item per row */
+  }
+}
+/* Existing CSS styles */
+/* ... */
+
+/* Media query for screens with a maximum width of 767px (smaller screens) */
+@media screen and (max-width: 767px) {
+  /* Adjust the navigation bar styles for smaller screens */
+  nav ul {
+    flex-direction: column; /* Stack the menu items vertically */
+  }
+
+  nav li {
+    margin: 10px 0; /* Add some spacing between the menu items */
+  }
+
+  /* Show the navigation links when the hamburger menu is active */
+  .nav-links.show {
+    display: block;
+  }
+
+  /* Hide the navigation links by default on small screens */
+  .nav-links {
+    display: none;
+  }
+
+  /* Hamburger icon styles */
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+
+/* Add your existing CSS styles here */
+
+/* Media query for screens with a maximum width of 767px (smaller screens) */
+@media screen and (max-width: 767px) {
+  /* Adjust the form styles for smaller screens */
+  #drink-form,
+  form {
+    width: 100%; /* Make the form occupy the full width of the screen */
+    max-width: 400px; /* Set a maximum width for the form to avoid it becoming too wide */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+
+  /* Optionally, you can add more specific styles for individual form elements */
+  /* For example, you can make form input fields stack on top of each other */
+  #drink-form input,
+  #drink-form select,
+  #drink-form textarea,
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* For textareas, you might want to adjust the height to fit the content better */
+  #drink-form textarea,
+  form textarea {
+    height: auto;
+  }
+
+  /* Optionally, you can add more styles based on your design preferences */
+}

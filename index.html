@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bountiful Foods</title>
+  <!-- Add necessary CSS and JavaScript files -->
+  <link rel="stylesheet" href="styles/style1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Kurale&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/hamburger.css">
+  
+</head>
+<body style="background-image: url('strawberry.jpg');">
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="images/Picturelogo.png" alt="logo"></a>
+    </div>
+    
+    <nav>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon"></div>
+      </div>
+      <ul class="nav-link">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="fresh.html">Fresh</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="attributions.html">Resource Reference/Attributions</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="summary">
+      <!-- Add summary information about the southern California coast -->
+    </section>
+    
+    <section class="call-to-action">
+      <h1>Welcome to Bountiful Foods</h1>
+      <article><p>Bountiful Foods is small business specializing in organic, locally grown foods. They are physically located in Carlsbad, California, however, they have many food trucks that cover the coastal area from Los Angeles to San Diego. The company sells fruits and produce directly from the farmers in the area, but also uses some national and international suppliers. The owner-operated company caters to walk in traffic at their storefront in Carlsbad and, of course, their food trucks. They deliver and manage those orders on the phone and via the website. The mission is to provide fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, to the local population and to tourists visiting the coastal areas. The theme should support healthy eating, organic bounty, and convenience</p>
+      <!-- <a href="fresh.html" class="cta-button">Make Your Own Fruit Drink Mix</a> -->
+    </section></article>
+    
+    <section class="homeimages">
+      <img class="homeimage" src="images/download.jpg" alt="Image 1"     loading="lazy">
+      <img class="homeimage" src="images/download (1).jpg" alt="Image 2" loading="lazy">
+      <img class="homeimage" src="images/download (2).jpg" alt="Image 3" loading="lazy">
+      <img class="homeimage" src="images/download (3).jpg" alt="Image 4" loading="lazy">
+    </section>
+    <a href="fresh.html" class="cta-button">Make Your Own Fruit Drink Mix</a>
+    <div class="weather-container">
+    <section class="weather-card">
+      <!-- Display current weather conditions and forecast for Carlsbad -->
+      <h2>Current Weather</h2>
+      <p>Temperature: <span id="current-temperature"></span>°C</p>
+      <p>Condition: <span id="condition-description"></span></p>
+      <p>Humidity: <span id="humidity"></span>%</p>
+    </section>
+    <section class="weather-forecast">
+      <h2>Three-Day Forecast</h2>
+      <p>Day 1: <span id="day1-temperature"></span>°C</p>
+      <p>Day 2: <span id="day2-temperature"></span>°C</p>
+      <p>Day 3: <span id="day3-temperature"></span>°C</p>
+    </section>
+  </div>
+  </main>
+  
+  <footer>
+    <!-- Add business contact information and map of the location -->
+    <p>Connect with us on social media:</p>
+    <ul class="social-media-links">
+      
+      <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="Facebook"></a></li>
+      <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/twitter.png" alt="Twitter"></a></li>
+      <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/instagram.jpg" alt="Instagram"></a></li>
+    </ul>
+    <p id="last-modified"></p>
+    <h2>Contact Information</h2>
+      <p><strong>Phone:</strong> +1(321)253-4685</p>
+      <p><strong>Email:</strong> bountifulfoods@gmail.com</p>
+      <p><strong>Address:</strong> 300 Berlin Street,Carlsbad, California USA </p>
+
+      <h2>Location</h2>
+      <div id="map"><a href="https://goo.gl/maps/9swQD321qhPYnwbr6"
+        target="blank">📍Location Map</a></div> <!-- Google Map will be inserted here -->
+
+  </footer>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/lastmodifield.js"></script>
+ <script src="scripts/hamburger.js"></script>
+</body>
+</html>
